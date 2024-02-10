@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f93bc72-855e-4f51-8d11-47dee950564a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/2.2.1. spring_hibernate/src/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/2.2.1. spring_hibernate/src/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="5f93bc72-855e-4f51-8d11-47dee950564a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,9 +55,9 @@
       <recent name="C:\Users\79520\IdeaProjects\PP_2_2_1_spring_hibernate\2.2.1. spring_hibernate" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\79520\IdeaProjects\PP_2_2_1_spring_hibernate" />
       <recent name="C:\Users\79520\IdeaProjects\PP_2_2_1_spring_hibernate\2.2.1. spring_hibernate\src" />
       <recent name="C:\Users\79520\IdeaProjects\PP_2_2_1_spring_hibernate\2.2.1. spring_hibernate" />
-      <recent name="C:\Users\79520\IdeaProjects\PP_2_2_1_spring_hibernate" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainApp">
@@ -115,7 +113,7 @@
       <workItem from="1707113841623" duration="9156000" />
       <workItem from="1707127091497" duration="1050000" />
       <workItem from="1707195895681" duration="457000" />
-      <workItem from="1707553748499" duration="1598000" />
+      <workItem from="1707553748499" duration="1923000" />
     </task>
     <servers />
   </component>
