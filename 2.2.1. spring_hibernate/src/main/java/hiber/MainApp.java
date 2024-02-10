@@ -11,6 +11,7 @@ import java.util.List;
 import java.util.logging.Logger;
 
 public class MainApp {
+    // Для проверки
     private static final Logger appLogger = Logger.getLogger(MainApp.class.getName());
 
     public static void main(String[] args) throws SQLException {
