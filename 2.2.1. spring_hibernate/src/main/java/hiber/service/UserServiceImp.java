@@ -20,7 +20,7 @@ public class UserServiceImp implements UserService {
         userDao.add(user);
     }
 
-    @Transactional(readOnly = true)
+    @Transactional(readOnly = true) // только читаю
     @Override
     public User takeBasedOnTheCar(int series, String model) {
         return userDao.takeBasedOnTheCar(series, model);
