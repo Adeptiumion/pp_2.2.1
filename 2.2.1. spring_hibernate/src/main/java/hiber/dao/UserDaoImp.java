@@ -16,7 +16,7 @@ public class UserDaoImp implements UserDao {
     @Autowired
     private SessionFactory sessionFactory;
 
-    @Transactional
+
     @Override
     public void add(User user) {
         sessionFactory.getCurrentSession().save(user);
@@ -31,7 +31,7 @@ public class UserDaoImp implements UserDao {
                 .setParameter("s", series)
                 .setParameter("m", model).getSingleResult();
     }
-    @Transactional(readOnly = true)
+
     @Override
     public List<User> listUsers() {
         TypedQuery<User> query = sessionFactory.getCurrentSession().createQuery("from User", User.class);
