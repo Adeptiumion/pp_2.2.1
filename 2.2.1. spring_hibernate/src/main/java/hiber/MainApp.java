@@ -5,7 +5,6 @@ import hiber.model.Car;
 import hiber.model.User;
 import hiber.service.UserService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
 import java.util.List;
 import java.util.logging.Logger;
 
@@ -32,7 +31,7 @@ public class MainApp {
         List<User> users = userService.listUsers();
         for (User user : users) {
             System.out.println(
-                              "\nId = " + user.getId()
+                    "\nId = " + user.getId()
                             + "\nFirst Name = " + user.getFirstName()
                             + "\nLast Name = " + user.getLastName()
                             + "\nEmail = " + user.getEmail()
