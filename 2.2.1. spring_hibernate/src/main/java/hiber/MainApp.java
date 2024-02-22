@@ -29,8 +29,7 @@ public class MainApp {
         userService.add(user_4);
 
         List<User> users = userService.listUsers();
-        for (User user : users)
-            System.out.println(user);
+        users.forEach(System.out::println);
 
 
 
