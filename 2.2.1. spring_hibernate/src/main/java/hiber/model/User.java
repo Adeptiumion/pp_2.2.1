@@ -1,6 +1,8 @@
 package hiber.model;
 
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -48,6 +50,7 @@ public class User {
         return "\nid: " + this.firstName
                 + "\nfirst name: " + this.firstName
                 + "\nlast name: " + this.lastName
-                + "\nemail: " + this.email;
+                + "\nemail: " + this.email
+                + "\ncar: " + this.car;
     }
 }
