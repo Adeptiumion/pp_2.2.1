@@ -28,11 +28,7 @@ public class MainApp {
         userService.add(user_3);
         userService.add(user_4);
 
-        List<User> users = userService.listUsers();
-        users.forEach(System.out::println);
-
-
-
+        userService.listUsers().forEach(System.out::println);
 
         appLogger.info("Пробую достать юзверя!");
         System.out.println(userService.takeBasedOnTheCar(1, "car_1"));
