@@ -29,16 +29,10 @@ public class MainApp {
         userService.add(user_4);
 
         List<User> users = userService.listUsers();
-        for (User user : users) {
-            System.out.println(
-                    "\nId = " + user.getId()
-                            + "\nFirst Name = " + user.getFirstName()
-                            + "\nLast Name = " + user.getLastName()
-                            + "\nEmail = " + user.getEmail()
+        for (User user : users)
+            System.out.println(user);
 
-            );
 
-        }
 
 
         appLogger.info("Пробую достать юзверя!");

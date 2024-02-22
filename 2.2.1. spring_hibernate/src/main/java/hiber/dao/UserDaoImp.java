@@ -9,19 +9,16 @@ import javax.persistence.TypedQuery;
 import java.util.List;
 
 @Repository
-@Transactional(readOnly = true)
 public class UserDaoImp implements UserDao {
 
     @Autowired
     private SessionFactory sessionFactory;
 
 
-    @Transactional
     @Override
     public void add(User user) {
         sessionFactory.getCurrentSession().save(user);
     }
-
 
     @Override
     public User takeBasedOnTheCar(int series, String model) {

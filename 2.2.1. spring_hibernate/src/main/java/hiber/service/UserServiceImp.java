@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 
+
+@Transactional(readOnly = true)
 @Service
 public class UserServiceImp implements UserService {
 
@@ -19,15 +21,12 @@ public class UserServiceImp implements UserService {
         userDao.add(user);
     }
 
-
     @Override
     public User takeBasedOnTheCar(int series, String model) {
 
         return userDao.takeBasedOnTheCar(series, model);
     }
 
-
-    @Transactional(readOnly = true)
     @Override
     public List<User> listUsers() {
         return userDao.listUsers();
