@@ -31,9 +31,11 @@ public class UserServiceImp implements UserService {
         return userDao.takeBasedOnTheCar(series, model);
     }
 
+
     @Override
     public List<User> listUsers() {
         return userDao.listUsers();
     }
+
 
 }

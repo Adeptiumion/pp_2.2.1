@@ -40,4 +40,5 @@ public class UserDaoImp implements UserDao {
         return query.getResultList();
     }
 
+
 }
